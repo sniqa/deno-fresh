@@ -1,0 +1,15 @@
+
+
+#index {
+    background-image: url("./main.jpg");
+    background-position: center;
+    background-size: 100vw 100vh;
+    background-clip: content-box;
+    animation: bg 6s infinite alternate-reverse;
+}
+
+
+@keyframes bg {
+    
+    100%    {  transform: scale(1.2, 1.2); }
+}
