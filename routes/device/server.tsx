@@ -2,13 +2,15 @@ import PageLayout from 'comps/PageLayout.tsx'
 import LeftAside from 'islands/LeftAside.tsx'
 import { Path } from 'path'
 
-const home = () => {
+const server = () => {
 	return (
 		<PageLayout
-			pageTitle="Home"
-			leftAside={<LeftAside matchPath={Path.Home} />}
-		></PageLayout>
+			pageTitle="部门"
+			leftAside={<LeftAside matchPath={Path.Server} />}
+		>
+			index
+		</PageLayout>
 	)
 }
 
-export default home
+export default server
